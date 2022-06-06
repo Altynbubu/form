@@ -1,0 +1,44 @@
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    align-content: center;
+    padding-top: 250px;
+}
+
+label {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+button {
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.todo-list {
+    margin-bottom: 20px;
+    padding: 5px 5px;
+}
